@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- <link rel="stylesheet" href="./assets/css/style.css"> -->
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0 minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"> -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>USA Weather Dashboard</title>
+
+</head>
+
+<style>
+</style>
+
+
+
+<body class="flex-column min-100-vh">
+
+    <img src="img_weather.jpg" alt="Weather Dashboard" style="width:100%">
+    <header class="app-header">
+
+        <div class="col-12 col-md-4">
+            <h1 class="app-title">Weather Dashboard Challenge</h1>
+        </div>
+        <p>
+            Search for a ZIP code to get the weather
+        </p>
+
+    </header>
+
+    <main class="flex-row justify-space-between">
+        <div class="card">
+            <h3 class="card-header text-uppercase">Search By ZIP</h3>
+            <form id="search-zip" class="card-body">
+
+                <input type="text" name="zip" var len=5 placeholder="Search for a ZIP">
+                <button>Search</button>
+        </div>
+
+
+
+
+        <p>
+            Results of weather in your city:
+        </p>
+        <!-- for a drop-down list:
+                <label for="exampleDataList" class="form-label">Datalist example</label>
+                <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+            <datalist id="datalistOptions">
+                <option value="San Francisco">
+                <option value="New York">
+                <option value="Seattle">
+                <option value="Los Angeles">
+                <option value="Chicago"> -->
+        </datalist>
+        </div>
+
+
+        <div class="col-12 col-sm-4">
+            One of two columns
+        </div>
+
+        <div class="col-12 col-md-8">
+            One of two columns
+        </div>
+
+        </div>
+
+    </main>
+
+
+    <script src="assets/js/app.js"></script>
+
+
+</body>
+
+
+</html>
