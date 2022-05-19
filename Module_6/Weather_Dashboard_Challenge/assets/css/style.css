@@ -1,0 +1,63 @@
+.app-title {
+    font-size: 32px;
+    font-weight: 800;
+    text-decoration-color: blue;
+
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+}
+
+.card-body {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    background-color: cornsilk;
+}
+
+.card {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    background-color: cornsilk;
+}
+
+h1 {
+    font-weight: 700;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 500;
+    text-align: left
+}
+
+p {
+    text-align: center;
+}
+
+.search {
+    text-align: center;
+}
+
+.search-zip {
+    text-align: center;
+}
+
+.byline {
+    font-weight: 200;
+    font-style: italic;
+}
+
+.column {
+    float: left;
+    width: 33%;
+}
+
+/*Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
